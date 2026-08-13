@@ -152,7 +152,16 @@ export default function HomePage() {
         <LocationMapSection />
       </main>
 
-      <Footer onOpenBooking={handleOpenBooking} />
+      <Footer
+        onNavigate={(sectionId) => {
+          const elem = document.getElementById(sectionId);
+          if (elem) {
+            elem.scrollIntoView({ behavior: 'smooth' });
+          }
+          setActiveSection(sectionId);
+        }}
+        onOpenBooking={handleOpenBooking}
+      />
 
       <BookingModal
         isOpen={isBookingOpen}

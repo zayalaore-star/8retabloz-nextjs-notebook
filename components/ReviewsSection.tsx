@@ -57,24 +57,32 @@ export const ReviewsSection: React.FC = () => {
   };
 
   const variants = {
-    enter: (dir: number) => ({
-      x: dir > 0 ? 120 : -120,
-      opacity: 0,
-      scale: 0.96,
-    }),
-    center: {
-      x: 0,
-      opacity: 1,
-      scale: 1,
-      transition: { duration: 0.45, ease: [0.16, 1, 0.3, 1] },
+  enter: (dir: number) => ({
+    x: dir > 0 ? 120 : -120,
+    opacity: 0,
+    scale: 0.96,
+  }),
+
+  center: {
+    x: 0,
+    opacity: 1,
+    scale: 1,
+    transition: {
+      duration: 0.45,
+      ease: [0.16, 1, 0.3, 1] as const,
     },
-    exit: (dir: number) => ({
-      x: dir > 0 ? -120 : 120,
-      opacity: 0,
-      scale: 0.96,
-      transition: { duration: 0.35, ease: 'easeIn' },
-    }),
-  };
+  },
+
+  exit: (dir: number) => ({
+    x: dir > 0 ? -120 : 120,
+    opacity: 0,
+    scale: 0.96,
+    transition: {
+      duration: 0.35,
+      ease: 'easeIn' as const,
+    },
+  }),
+};
 
   return (
     <section id="reseñas" className="py-24 sm:py-32 bg-[#F4F3EF] border-t border-[#E2DFC2] relative overflow-hidden">
