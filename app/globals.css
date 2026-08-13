@@ -1,0 +1,124 @@
+@import "tailwindcss";
+
+@theme {
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+
+  --color-warm-white: #FAF9F6;
+  --color-cream: #F4F3EF;
+  --color-sand: #E5E3DC;
+  --color-stone-dark: #1C1917;
+  --color-gold: #B38F4E;
+  --color-gold-light: #D4AF37;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF9F6;
+  color: #1C1917;
+}
+
+h1, h2, h3, h4, .font-josefin {
+  font-family: var(--font-josefin);
+}
+
+.font-serif-luxury {
+  font-family: var(--font-serif);
+}
+
+/* Bento Grid Theme Styling */
+.bento-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E2DFC2;
+  border-radius: 1.5rem;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card:hover {
+  border-color: #C8BF9D;
+  box-shadow: 0 12px 32px rgba(28, 25, 23, 0.08);
+  transform: translateY(-2px);
+}
+
+.bento-card-dark {
+  background-color: #1C1917;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.bento-card-dark:hover {
+  border-color: rgba(212, 175, 55, 0.4);
+  transform: translateY(-2px);
+}
+
+.bento-pill {
+  border-radius: 9999px;
+  background-color: #F4F3EF;
+  border: 1px solid #E2DFC2;
+  padding: 0.375rem 1rem;
+  font-size: 0.75rem;
+  font-family: var(--font-josefin);
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8CEC3;
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B38F4E;
+}
+
+/* Glassmorphism luxury panel */
+.glass-panel {
+  background: rgba(250, 249, 246, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid #E2DFC2;
+}
+
+.glass-dark-panel {
+  background: rgba(28, 25, 23, 0.88);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+}
+
+/* Smooth Image Motion */
+@keyframes kenburns {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-kenburns {
+  animation: kenburns 20s ease-in-out infinite alternate;
+}
+
+/* Hide scrollbar for gallery track */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
