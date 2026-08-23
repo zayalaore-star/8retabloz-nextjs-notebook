@@ -102,7 +102,7 @@ const HOTEL_AREAS: HotelArea[] = [
       {
         url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505497/retablos1v/FACHADA_2_qbb8sh.webp',
         caption: 'Detalles de portón de madera tallada a mano.',
-      }{
+      },{
         url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505497/retablos1v/FACHADA_3_qslvwg.webp',
         caption: 'Detalles de portón de madera tallada a mano.',
       },
