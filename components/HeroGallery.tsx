@@ -64,20 +64,36 @@ const HOTEL_AREAS: HotelArea[] = [
     title: 'Restaurante & Cava',
     photoCount: '1/47',
     mainImage:
-      'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85',
+      'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_4_wh4jl7.webp',
     description:
       'Fusión gastronómica ayacuchana, café de especialidad de la selva central y cava subterránea de guarda.',
     gallery: [
       {
-        url: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1600&q=85',
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_1_wh4jl7.webp',
         caption: 'Restaurante El Retablo con vigas de madera noble y calidez de hogar.',
       },
       {
-        url: 'https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?auto=format&fit=crop&w=1600&q=85',
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505490/retablos1v/COCINA_7_jrp7qo.webp',
         caption: 'Desayuno gourmet preparado con insumos locales frescos.',
       },
       {
-        url: 'https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=1600&q=85',
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_6_agndbg.webp',
+        caption: 'Cava de vinos y destilados bajo arcos de cantera.',
+      },
+      {
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_5_b4grgw.webp',
+        caption: 'Cava de vinos y destilados bajo arcos de cantera.',
+      },
+      {
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_3_p1jimt.webp',
+        caption: 'Cava de vinos y destilados bajo arcos de cantera.',
+      },
+      {
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_2_ropjow.webp',
+        caption: 'Cava de vinos y destilados bajo arcos de cantera.',
+      },
+      {
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/COCINA_1_x4hqz9.webp',
         caption: 'Cava de vinos y destilados bajo arcos de cantera.',
       },
     ],
