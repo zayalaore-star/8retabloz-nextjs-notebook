@@ -180,7 +180,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     subtitle: 'Entrada Principal',
     category: 'architecture',
     categoryLabel: 'Arquitectura & Luz',
-    url: 'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1600&q=85',
+    url: 'https://asset.cloudinary.com/dqdzahaup/75ac67d67bde2c211183c06c269de7ab',
     alt: 'Fachada colonial barroca iluminada con cálidos faroles',
     location: 'Patio Principal',
     architecturalNote:

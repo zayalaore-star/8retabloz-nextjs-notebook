@@ -408,6 +408,7 @@ export const AnimatedGallery: React.FC<AnimatedGalleryProps> = ({
                         HOTEL 8RETABLOZ
                       </span>
                     </div>
+                    
                   </motion.div>
                 )}
               </AnimatePresence>
