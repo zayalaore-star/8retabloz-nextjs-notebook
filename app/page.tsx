@@ -103,7 +103,7 @@ export default function HomePage() {
           />
         </section>
 
-        <section id="tarifas-calendario">
+        {/* <section id="tarifas-calendario">
           <RatesCalendarSection onOpenBooking={handleOpenBooking} />
         </section>
 
@@ -112,7 +112,7 @@ export default function HomePage() {
             onSelectSuite={(suiteId) => setSelectedSuiteId(suiteId)}
             onOpenBooking={handleOpenBooking}
           />
-        </section>
+        </section> */}
 
         {/* <section id="experiencias">
           <Experiences onOpenBooking={handleOpenBooking} />
