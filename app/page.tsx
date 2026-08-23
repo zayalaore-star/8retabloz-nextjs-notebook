@@ -114,9 +114,9 @@ export default function HomePage() {
           />
         </section>
 
-        <section id="experiencias">
+        {/* <section id="experiencias">
           <Experiences onOpenBooking={handleOpenBooking} />
-        </section>
+        </section> */}
 
         <section id="historia" className="space-y-6 border-t border-slate-200 px-6 py-12">
           <div className="mx-auto max-w-7xl">
