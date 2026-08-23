@@ -93,14 +93,14 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection, onNavigate, onOpe
               {lang}
             </button>
 
-            <button
+            {/* <button
               id="nav-booking-btn"
               onClick={() => onOpenBooking()}
               className="relative inline-flex items-center space-x-2 px-5 py-2.5 rounded-full bg-[#1C1917] text-[#FAF8F5] font-josefin text-xs tracking-[0.2em] font-medium hover:bg-[#B38F4E] transition-all duration-300 shadow-sm hover:shadow-md active:scale-95"
             >
               <Calendar className="w-3.5 h-3.5 text-[#D4AF37]" />
               <span>RESERVAR</span>
-            </button>
+            </button> */}
           </div>
 
           <div className="flex md:hidden items-center space-x-2">
