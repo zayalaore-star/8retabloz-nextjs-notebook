@@ -180,7 +180,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
     subtitle: 'Entrada Principal',
     category: 'architecture',
     categoryLabel: 'Arquitectura & Luz',
-    url: 'https://asset.cloudinary.com/dqdzahaup/75ac67d67bde2c211183c06c269de7ab',
+    url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/Cochera_lbqlmz.webp',
     alt: 'Fachada colonial barroca iluminada con cálidos faroles',
     location: 'Patio Principal',
     architecturalNote:

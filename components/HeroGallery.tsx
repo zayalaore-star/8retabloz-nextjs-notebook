@@ -87,7 +87,7 @@ const HOTEL_AREAS: HotelArea[] = [
     title: 'Fachada & Entrada',
     photoCount: '1/5',
     mainImage:
-      'https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=1200&q=85',
+      'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505489/retablos1v/Cochera_lbqlmz.webp',
     description:
       'Casona histórica restaurada respetando la arquitectura tradicional de Huamanga.',
     gallery: [
@@ -96,7 +96,14 @@ const HOTEL_AREAS: HotelArea[] = [
         caption: 'Entrada principal sobre Av. Las Retamas iluminada al caer la noche.',
       },
       {
-        url: 'https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=1600&q=85',
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505497/retablos1v/FACHADA_1_zdppq2.webp',
+        caption: 'Detalles de portón de madera tallada a mano.',
+      },
+      {
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505497/retablos1v/FACHADA_2_qbb8sh.webp',
+        caption: 'Detalles de portón de madera tallada a mano.',
+      }{
+        url: 'https://res.cloudinary.com/dqdzahaup/image/upload/v1787505497/retablos1v/FACHADA_3_qslvwg.webp',
         caption: 'Detalles de portón de madera tallada a mano.',
       },
     ],
