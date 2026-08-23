@@ -118,7 +118,7 @@ export default function HomePage() {
           <Experiences onOpenBooking={handleOpenBooking} />
         </section> */}
 
-        <section id="historia" className="space-y-6 border-t border-slate-200 px-6 py-12">
+        {/* <section id="historia" className="space-y-6 border-t border-slate-200 px-6 py-12">
           <div className="mx-auto max-w-7xl">
             <p className="text-sm uppercase tracking-[0.24em] text-slate-500">Historia</p>
             <h2 className="mt-2 text-3xl font-semibold text-slate-950">Un legado colonial y artístico</h2>
@@ -126,9 +126,9 @@ export default function HomePage() {
               8Retabloz Ayacucho nació de la restauración cuidadosa de una casona histórica en el Centro Histórico. Cada espacio conserva la huella de la tradición local, con detalles artesanales, retablos pintados y mobiliario en madera de la región.
             </p>
           </div>
-        </section>
+        </section> */}
 
-        <section id="guia-turistica" className="space-y-6 border-t border-slate-200 px-6 py-12 bg-slate-50">
+        {/* <section id="guia-turistica" className="space-y-6 border-t border-slate-200 px-6 py-12 bg-slate-50">
           <div className="mx-auto max-w-7xl">
             <p className="text-sm uppercase tracking-[0.24em] text-slate-500">Guía Turística</p>
             <h2 className="mt-2 text-3xl font-semibold text-slate-950">Descubre Ayacucho con nosotros</h2>
@@ -145,7 +145,7 @@ export default function HomePage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         <ReviewsSection />
 

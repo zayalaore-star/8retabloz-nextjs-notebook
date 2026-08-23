@@ -90,13 +90,13 @@ export const ReviewsSection: React.FC = () => {
         
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
-          <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#FAF9F6] border border-[#E2DFC2] text-xs font-josefin tracking-[0.25em] text-[#8C7A6B] uppercase font-semibold">
+          {/* <div className="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-[#FAF9F6] border border-[#E2DFC2] text-xs font-josefin tracking-[0.25em] text-[#8C7A6B] uppercase font-semibold">
             <Award className="w-3.5 h-3.5 text-[#B38F4E]" />
             <span>EXPERIENCIAS DE NUESTROS HUÉSPEDES</span>
-          </div>
+          </div> */}
 
           <h2 className="font-josefin text-3xl sm:text-5xl font-bold tracking-tight text-[#1C1917]">
-            Voces de Serenidad & Arte
+            EXPERIENCIAS DE NUESTROS HUÉSPEDES
           </h2>
 
           <div className="flex items-center justify-center space-x-2 pt-1">
@@ -109,7 +109,7 @@ export const ReviewsSection: React.FC = () => {
               4.98 / 5.0
             </span>
             <span className="text-xs font-serif-luxury text-[#665A4F] italic">
-              — Calificación en hospitalidad boutique
+              — Calificación en Airbnb 
             </span>
           </div>
         </div>
